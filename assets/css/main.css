@@ -2187,7 +2187,7 @@ div.demo img {
 }
 
 .theme-bg {
-  background-color: var(--tp-theme-primary);
+  background-color: #497abc;
 }
 
 .theme-bg-2 {
@@ -6789,7 +6789,6 @@ body .ui-tooltip {
 }
 .tp-header-logo-1 img {
   width: 125px;
-  height: 48px;
 }
 .tp-header-logo-1 .logo-2 {
   display: none;
