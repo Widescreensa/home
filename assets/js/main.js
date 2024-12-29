@@ -324,7 +324,7 @@
 	var slider = new Swiper('.tp-slider-active', {
 		slidesPerView: 1,
 		effect: 'fade',
-		loop: true,
+		loop: false,
 		autoplay: {
 			delay: 3500,
 		},
