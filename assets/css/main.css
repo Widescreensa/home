@@ -1035,7 +1035,7 @@ div.demo img {
   padding: 9px 32px;
   border-radius: 6px;
   color: var(--tp-common-white);
-  background-color: var(--tp-theme-primary);
+  background-color: rgb(72, 122, 183);
   transition: all 0.25s ease-in-out;
 }
 .tp-btn-3:hover {
@@ -11179,7 +11179,7 @@ a.social-yout {
   margin-bottom: 7px;
 }
 .tp-footer-4-bottom {
-  background-color: #900000;
+  background-color: rgb(72, 122, 183);
   padding: 17px 0;
 }
 .tp-footer-4-bottom.tp-footer-inner-bottom {
