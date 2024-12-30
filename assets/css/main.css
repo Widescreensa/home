@@ -6883,7 +6883,7 @@ body .ui-tooltip {
 }
 .tp-header-1.tp-header-sticky .tp-header-btn a {
   color: var(--tp-common-white);
-  background-color: var(--tp-theme-primary);
+  background-color: rgb(73, 122, 188);
 }
 .tp-header-1.tp-header-sticky .tp-header-btn a:hover {
   color: var(--tp-common-white);
@@ -12662,7 +12662,7 @@ a.social-yout {
 }
 
 .tp-about-4-head {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 300;
   line-height: 1.17;
   margin-bottom: 45px;
