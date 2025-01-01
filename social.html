@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            background-image: url(https://img.freepik.com/free-vector/colorful-image-background-with-red-green-color_125964-1597.jpg?semt=ais_hybrid);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        .logo img {
+            width: 200px; /* Adjust the size as needed */
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 24px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .social-icon {
+            font-size: 24px;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .social-icon:hover {
+            color: #0073e6; /* Color on hover */
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0073e6;
+            color: white;
+            padding: 12px;
+            border-radius: 20px;
+            text-decoration: none;
+            gap: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #005bb5;
+        }
+
+        .button img {
+            width: 50px; /* Adjust for logo size */
+        }
+
+        .button span {
+            font-size: 14px;
+        }
+
+        .big-button {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            height: 200px; /* Adjust size as needed */
+            margin-top: 20px;
+            border: 1.5px solid #c9e4ff;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .big-button img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: blur(3px);
+        }
+
+        .button-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .button-overlay span {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="assets\img\logo\logo-black.png" alt="Logo"> <!-- Replace with your logo -->
+        </div>
+
+        <!-- Title Section -->
+        <h1 class="title">Social Media </h1>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=61551172705651" class="social-icon" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.snapchat.com/add/widescreen_sa" class="social-icon" target="_blank"><i class="fab fa-snapchat" ></i></a>
+            <a href="https://www.tiktok.com/@widescreen_sa" class="social-icon" target="_blank"><i class="fab fa-tiktok" ></i></a>
+            <a href="https://www.youtube.com/@Widescreen_sa" class="social-icon" target="_blank"><i class="fab fa-youtube" ></i></a>
+            <a href="https://api.whatsapp.com/send?phone=966501702871" class="social-icon" target="_blank"><i class="fab fa-whatsapp" ></i></a>
+            <a href="#" class="social-icon" target=""><i class="fab fa-instagram" ></i></a>
+        </div>
+
+        <!-- Rectangle Buttons -->
+        <div class="buttons">
+            <a href="https://api.whatsapp.com/send?phone=966501702871" class="button" target="_blank">
+                <img src="assets\img\logo\logo.png" alt="Logo" width="50px"> 
+                <span style="font-size:medium; font-weight:700;"> Appointments</span>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=966501702871" class="button" target="_blank">
+                <img src="assets\img\logo\logo.png" alt="Logo">
+                <span style="font-size:medium; font-weight:700;">Be a Partner</span>
+            </a>
+        
+         
+        </div>
+
+        <!-- Big Square Image Button -->
+        <div class="big-button">
+            <a href="https://www.google.com/maps/" target="_blank"><img src="https://static1.anpoimages.com/wordpress/wp-content/uploads/2022/07/googleMapsTricksHero.jpg" alt="Big Button">
+            <div class="button-overlay">
+                <span style="color: aliceblue; text-decoration:none;">Our Office</span></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
